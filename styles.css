@@ -1,0 +1,166 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: white;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10%;
+}
+h3{
+    padding-top: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    padding: 3% 10% 3% 10%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: solid 3px;
+    border-color: #E98EAD;
+    color: white;
+    border-radius: 100%;
+    background-color: black;
+    padding: 1%;
+}
+.navbar-item{
+    padding: 5%;
+}
+.navbar-nav{
+    margin-right: 10%;
+}
+
+#title{
+    background-color: #205295;
+    color: white;
+}
+@media (max-width : 990px){
+    #title{
+        text-align: center;
+    }
+    .buliding{
+        padding-left: 150px;
+    }
+}
+.security{
+    width: 80%;
+    height: 80%;   
+}
+.title-images{
+    position: relative;
+}
+.buliding{
+    width: 70%;
+    height: 70%;
+    padding: 10%;
+    /*transform: rotate(-45deg);*/
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    
+}
+.title-context{
+    padding: 5% 10%;
+    text-align: left;
+
+}
+.btn{
+    margin: 5% 5%;
+}
+
+
+/* features*/
+#features{
+    padding: 10% 20%;
+}
+.feature-icons{
+   margin: 0% 30% 0 40%;
+   color: #2C74B3;
+}
+.feature-icons:hover{
+    color: blue;
+}
+.feature-text{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Devices */
+#Devices{
+    background-color: #2C74B3;
+    color: white;
+    margin: 0% 10%;
+}
+.feature-images{
+    border-radius: 100%;
+    width: 55%;
+    height: 50%;
+    padding-top: 10%;
+}
+.Deviceimages{
+    text-align: center;
+    border: solid 3px;
+}
+.slide-button-1{
+    margin-right: 100px;
+}
+.slide-button-2{
+    margin-left: 100px;
+}
+
+/*pricing*/
+
+#pricing{
+    padding: 10%;
+}
+.Pricing-heading{  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+.card{
+    border-color: #2C74B3;
+    border: solid 2px;
+}
+/* User action */
+#cta{
+    background-color: #2C74B3;
+    color: white;
+}
+.testimonial{
+    padding: 5%;
+    display: block;
+    width: 50%;
+    margin: 0% 25%
+}
+.buttons-cta{
+    margin: 0% 1% 5%;
+}
+
+/*footer */
+footer{
+    text-align: center;
+    margin-top: 5%;
+}
+.contact-icons{
+    margin: 0% 1%;
+}
+p{
+    margin-top: 1%;
+    color: grey;
+    font-size: 0.75rem;
+}
